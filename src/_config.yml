@@ -21,6 +21,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author:
+        name: Felipe Bojorquez
+        url: "https://febog.com"
   - scope:
       path: ""
     values:
