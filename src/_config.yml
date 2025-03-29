@@ -1,7 +1,27 @@
+# Jekyll configuration
+
+# Site settings
+# Used by the `jekyll-feed` and `jekyll-seo-tag` plugins.
+title: febog.com
+tagline: Felipe Bojorquez's personal website
+description: >-
+  Felipe's website: links, blog and projects. You can find links to my 
+  portfolio and contact information on my little corner of the internet.
+url: "https://febog.com"
+logo: /assets/icons/apple-touch-icon.png
+author: Felipe Bojorquez
+
+# Set global permalink. All blog posts under `/blog`.
 permalink: /blog/:year/:month/:day/:title
 
+# All pages use the base layout by default
 defaults:
   - scope:
       path: ""
     values:
       layout: "base"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
