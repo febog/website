@@ -141,8 +141,11 @@
       color: var(--primary-color);
     }
 
-    .site-title {
+    a.site-title {
+      font-size: 1rem;
       font-weight: 600;
+      border-bottom: 0;
+      color: var(--body-color);
     }
 
     /* Blog post styles */
@@ -167,7 +170,7 @@
 <body>
   <header class="site-header">
     <nav class="navbar">
-      <span class="site-title">Felipe</span>
+      <a href="/" class="site-title">Felipe</a>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/blog">Blog</a></li>
