@@ -148,6 +148,20 @@
       color: var(--primary-color);
     }
 
+    /* Site footer */
+    body > footer {
+      color: gray;
+      padding: 0.5rem;
+      max-width: var(--content-width);
+      margin: 0 auto;
+      border-top: 1px solid var(--gray-border-color);
+    }
+
+    a.footer-link {
+      color: gray;
+      border-bottom: 0;
+    }
+
     /* Blog post styles */
     article > header > h1 {
       font-size: 2rem;
@@ -180,6 +194,11 @@
   <main>
     {{ content }}
   </main>
+  <footer>
+    <small>
+      © 2025 <a href="https://febog.com" class="footer-link">Felipe Bojorquez</a>.
+    </small>
+  </footer>
 </body>
 
 </html>
