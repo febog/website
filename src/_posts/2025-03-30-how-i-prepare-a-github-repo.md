@@ -1,5 +1,6 @@
 ---
 title: How I prepare a new GitHub repository for personal use
+tags: software code git engineering
 ---
 This is a personal list of things that I usually do when I create a new repository. This is not meant to be a general recommendation but rather I write this to serve as a **checklist for myself** when creating a new codebase for a learning or personal project.
 
@@ -17,7 +18,7 @@ For small projects I disable the features that I won't use: wikis, issues, spons
 
 Under `Settings -> General -> Pull Requests`.
 
-- *Only* allow squash merging, with the default commit message set to the PR title and description. Disable "merge commits" and "rebase merging"
+- *Only* allow squash merging, with the default commit message set to the PR title and description. Disable "merge commits" and "rebase merging".
 - Always suggest updating pull request branches set to enabled.
 - Automatically delete head branches set to enabled.
 
