@@ -6,8 +6,8 @@ layout: base
     <h1>{{ page.title }}</h1>
     <p>
       <time datetime="{{ page.date | date_to_xmlschema  }}">
-        {{ page.date | date_to_long_string: "ordinal", "US" }}
-      </time> • {{ page.author.name }}
+        📅 {{ page.date | date_to_long_string: "ordinal", "US" }}
+      </time> • 🖊 {{ page.author.name }} • 🏷 {{ page.tags | join: ", " }}
     </p>
   </header>
   {{ content }}
