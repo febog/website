@@ -150,11 +150,20 @@
 
     /* Site footer */
     body > footer {
+      font-size: 0.9rem;
       color: gray;
       padding: 0.5rem;
       max-width: var(--content-width);
       margin: 0 auto;
       border-top: 1px solid var(--gray-border-color);
+    }
+
+    .footer-container {
+      display: flex;
+    }
+
+    .copyright {
+      flex-grow: 1;
     }
 
     a.secondary-link {
@@ -199,9 +208,14 @@
     {{ content }}
   </main>
   <footer>
-    <small>
-      © 2025 <a href="https://febog.com" class="secondary-link">Felipe Bojorquez</a>.
-    </small>
+      <div class="footer-container">
+        <div class="copyright">
+          © 2025 <a href="https://febog.com" class="secondary-link">Felipe Bojorquez</a>.
+        </div>
+        <div>
+          <a href="/feed.xml" class="secondary-link">Feed</a> • <a href="#top" class="secondary-link">Top</a>
+        </div>
+      </div>
   </footer>
 </body>
 
