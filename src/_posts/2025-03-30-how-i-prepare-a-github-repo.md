@@ -35,9 +35,9 @@ For the main branch, I generally enable the following protections:
 In addition to the above, for projects where I will be using pull requests instead of committing directly to `main` I usually enable the following protections:
 
 - Require a pull request before merging.
-	- Dismiss stale pull request approvals when new commits are pushed.
+    - Dismiss stale pull request approvals when new commits are pushed.
 - Require status checks to pass before merging.
-	- Require branches to be up to date before merging.
+    - Require branches to be up to date before merging.
 
 ## Actions
 
