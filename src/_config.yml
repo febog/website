@@ -29,9 +29,9 @@ defaults:
     values:
       layout: "base"
       image:
-        path: "https://static.febog.com/febog-cover.avif"
-        height: 500
-        width: 889
+        path: "https://static.febog.com/febog-cover.jpg"
+        height: 625
+        width: 1111
         alt: febog.com - Space photo by NASA.
 
 plugins:
