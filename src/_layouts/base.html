@@ -21,6 +21,7 @@
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
       --body-color: #d9d9d9;
+      --muted-color: #aaaaaa;
       --primary-color: #6e8cfe;
       --secondary-color: #866efe;
       --background-color: #121213;
@@ -151,7 +152,7 @@
     /* Site footer */
     body > footer {
       font-size: 0.9rem;
-      color: gray;
+      color: var(--muted-color);
       padding: 0.5rem;
       max-width: var(--content-width);
       margin: 0 auto;
@@ -168,12 +169,12 @@
     }
 
     a.secondary-link {
-      color: gray;
+      color: var(--muted-color);
       border-bottom: 0;
     }
 
     a.secondary-link:hover {
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid var(--muted-color);
     }
 
     /* Blog post styles */
@@ -184,7 +185,7 @@
 
     article > header > p {
       font-size: 0.9rem;
-      color: gray;
+      color: var(--muted-color);
       margin-bottom: 1rem;
       padding-bottom: 0.5rem;
       border-bottom: 1px solid var(--gray-border-color);
