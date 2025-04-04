@@ -20,4 +20,4 @@ You can find me on my socials:
 
 ---
 
-<small>I hope you have a fantastic day! 🥤</small>
+I hope you have a fantastic day! 🥤
