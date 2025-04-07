@@ -64,16 +64,21 @@
       text-decoration: none;
       color: var(--primary-color);
       border-bottom: 1px solid var(--primary-color);
-    }
-
-    a:visited {
-      color: var(--secondary-color);
-      border-bottom: 1px solid var(--secondary-color);
-    }
-
-    a:hover {
-      color: var(--body-color);
-      border-bottom: 1px solid var(--body-color);
+      &:visited {
+        color: var(--secondary-color);
+        border-bottom: 1px solid var(--secondary-color);
+      }
+      &:hover {
+        color: var(--body-color);
+        border-bottom: 1px solid var(--body-color);
+      }
+      &.secondary-link {
+        color: var(--muted-color);
+        border-bottom: 0;
+        &:hover {
+          border-bottom: 1px solid var(--muted-color);
+        }
+      }
     }
 
     hr {
@@ -163,15 +168,6 @@
 
     .copyright {
       flex-grow: 1;
-    }
-
-    a.secondary-link {
-      color: var(--muted-color);
-      border-bottom: 0;
-    }
-
-    a.secondary-link:hover {
-      border-bottom: 1px solid var(--muted-color);
     }
 
     /* Blog post styles */
