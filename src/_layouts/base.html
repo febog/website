@@ -120,28 +120,24 @@
     .navbar {
       max-width: var(--content-width);
       margin: 0 auto;
-    }
-
-    .navbar > ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: inline;
-    }
-
-    .navbar > ul > li {
-      display: inline-block;
-    }
-
-    .navbar > ul > li > a {
-      text-decoration: none;
-      color: var(--body-color);
-      border-bottom-style: none;
-      padding: 0.5rem;
-    }
-
-    .navbar > ul > li > a:hover {
-      color: var(--primary-color);
+      > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        > li {
+          display: inline-block;
+          > a {
+            text-decoration: none;
+            color: var(--body-color);
+            border-bottom-style: none;
+            padding: 0.5rem;
+            &:hover {
+              color: var(--primary-color);
+            }
+          }
+        }
+      }
     }
 
     a.site-title {
