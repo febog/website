@@ -18,4 +18,6 @@ You can find me on my socials:
 - You can write to me via the email on my <a href="https://github.com/febog" rel="me noreferrer" target="_blank">GitHub</a> profile.
 - I'm also on <a href="https://hachyderm.io/@febog" rel="me noreferrer" target="_blank">Mastodon</a>.
 
+---
+
 I hope you have a fantastic day! 🥤
