@@ -23,10 +23,11 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          working-directory: src
+          working-directory: ./src
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Build Jekyll website
+        working-directory: ./src
         run: bundle exec jekyll build
 
       - name: Deploy
