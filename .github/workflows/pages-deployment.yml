@@ -35,6 +35,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: febog
-          directory: ./src/_site # Directory of output assets
+          command: pages deploy ./src/_site --project-name=febog # Directory of output assets
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
