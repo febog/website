@@ -1,6 +1,11 @@
 ---
 title: How to deploy a Jekyll website to Cloudflare Pages using the latest Ruby version
 tags: software code engineering
+image:
+  path: "https://static.febog.com/blog-20250411-cover.jpg"
+  height: 720
+  width: 1280
+  alt: Yellow origami paper boat on a light blue background. Photo by Alex Padurariu via Unsplash.
 code_highlight: true
 ---
 Today, there are many great options for hosting [static](https://en.wikipedia.org/wiki/Static_web_page) websites. One of them is [Cloudflare Pages](https://pages.cloudflare.com/), which not only leverages Cloudflare’s network but also provides a generous free tier, like many of their other services.
