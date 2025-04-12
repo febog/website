@@ -12,3 +12,15 @@ layout: base
   </header>
   {{ content }}
 </article>
+{% if page.previous != nil or page.next != nil %}
+<aside id="next-previous">
+  {% if page.next != nil %}
+  <p>Next post</p>
+  <p><a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
+  {% endif %}
+  {% if page.previous != nil %}
+  <p>Previous post</p>
+  <p><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+  {% endif %}
+</aside>
+{% endif %}
