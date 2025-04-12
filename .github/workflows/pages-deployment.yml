@@ -1,0 +1,39 @@
+# Use a GitHub action to deploy to Cloudflare Pages using Direct Upload
+
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Build Jekyll website and deploy to Cloudflare Pages
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          working-directory: ./src
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+      - name: Build Jekyll website
+        run: bundle exec jekyll build
+
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: febog
+          directory: ./src/_site # Directory of output assets
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
