@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: read
       deployments: write
-    name: Build Jekyll website and deploy to Cloudflare Pages
+    name: Build and deploy
 
     steps:
       - name: Checkout
