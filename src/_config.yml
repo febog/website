@@ -12,6 +12,11 @@ logo: /assets/icons/apple-touch-icon.png
 author:
   name: Felipe Bojorquez
   url: "https://febog.com"
+social:
+  name: Felipe Bojorquez
+  links:
+    - https://github.com/febog
+    - https://hachyderm.io/@febog
 
 # Set global permalink. All blog posts under `/blog`.
 permalink: /blog/:year/:month/:day/:title
