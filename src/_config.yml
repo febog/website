@@ -9,7 +9,9 @@ description: >-
   portfolio and contact information on my little corner of the internet.
 url: "https://febog.com"
 logo: /assets/icons/apple-touch-icon.png
-author: Felipe Bojorquez
+author:
+  name: Felipe Bojorquez
+  url: "https://febog.com"
 
 # Set global permalink. All blog posts under `/blog`.
 permalink: /blog/:year/:month/:day/:title
