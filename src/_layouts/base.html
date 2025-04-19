@@ -70,13 +70,6 @@
       &:hover {
         color: var(--body-color);
       }
-      &.secondary-link {
-        text-decoration: none;
-        color: var(--muted-color);
-        &:hover {
-          text-decoration: underline;
-        }
-      }
     }
 
     hr {
@@ -160,6 +153,14 @@
       max-width: var(--content-width);
       margin: 0 auto 1.5rem;
       border-top: var(--gray-border);
+
+      a {
+        text-decoration: none;
+        color: var(--muted-color);
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
 
     #footer-container {
@@ -217,10 +218,10 @@
   <footer id="site-footer">
     <div id="footer-container">
       <div id="copyright">
-        © 2025 <a href="https://febog.com" class="secondary-link">Felipe Bojorquez</a>.
+        © 2025 <a href="https://febog.com">Felipe Bojorquez</a>.
       </div>
       <div>
-        <a href="/feed.xml" class="secondary-link">Feed</a> • <a href="#top" class="secondary-link">Top</a>
+        <a href="/feed.xml">Feed</a> • <a href="#top">Top</a>
       </div>
     </div>
   </footer>
