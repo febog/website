@@ -77,12 +77,6 @@
           text-decoration: underline;
         }
       }
-      &.site-title {
-        text-decoration: none;
-        font-weight: 600;
-        margin-right: 0.5rem;
-        color: var(--primary-color);
-      }
     }
 
     hr {
@@ -153,6 +147,13 @@
       }
     }
 
+    #site-title {
+      text-decoration: none;
+      font-weight: 600;
+      margin-right: 0.5rem;
+      color: var(--primary-color);
+    }
+
     /* Site footer */
     body > footer {
       font-size: 0.9rem;
@@ -205,7 +206,7 @@
 <body>
   <header>
     <nav class="navbar">
-      <a href="/" class="site-title">febog</a>
+      <a href="/" id="site-title">febog</a>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/blog">Blog</a></li>
