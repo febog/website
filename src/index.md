@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-# Hello, I'm Felipe!
+# Hi, I'm Felipe
 
 *Software engineer, gamer, hopeless romantic, optimist.*
 
