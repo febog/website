@@ -11,6 +11,8 @@ Welcome to my little corner of the internet! About section and contact can be fo
 
 I am a software engineer based in the US interested in web technologies. I am currently working and learning with C# and ASP.NET Core to create web applications. I have work experience with HTML, CSS, JavaScript, C++ and C#.
 
+Lately, I have been experimenting with and learning Jekyll, a static site generator. For example, this website is built with it in combination with plain HTML and CSS.
+
 ## Contact 📫
 
 You can find me on my socials:
