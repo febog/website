@@ -127,19 +127,15 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        display: inline;
+        display: inline-flex;
 
-        > li {
-          display: inline-block;
-
-          > a {
-            text-decoration: none;
-            color: var(--body-color);
-            border-bottom-style: none;
-            padding: 0.5rem;
-            &:hover {
-              color: var(--primary-color);
-            }
+        > li > a {
+          text-decoration: none;
+          color: var(--body-color);
+          border-bottom-style: none;
+          padding: 0.75rem;
+          &:hover {
+            color: var(--primary-color);
           }
         }
       }
@@ -148,7 +144,7 @@
     #site-title {
       text-decoration: none;
       font-weight: 600;
-      margin-right: 0.5rem;
+      margin-right: 0.75rem;
       color: var(--primary-color);
     }
 
