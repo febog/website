@@ -21,6 +21,9 @@ social:
 # Set global permalink. All blog posts under `/blog`.
 permalink: /blog/:year/:month/:day/:title
 
+# Set timezone for correct URL generation
+timezone: America/Los_Angeles
+
 # All pages use the base layout by default
 defaults:
   - scope:
