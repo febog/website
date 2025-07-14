@@ -4,7 +4,7 @@ layout: base
 <article>
   <header class="blog-post-header">
     <h1>{{ page.title }}</h1>
-    <p>
+    <p class="secondary-text">
       <time datetime="{{ page.date | date_to_xmlschema  }}">
         📅 {{ page.date | date_to_long_string: "ordinal", "US" }}
       </time> • 🖊 {{ page.author.name }} • 🏷 {{ page.tags | join: ", " }}
@@ -13,7 +13,7 @@ layout: base
   {{ content }}
 </article>
 {% if page.previous != nil or page.next != nil %}
-<aside class="blog-navigator">
+<aside class="blog-navigator secondary-text">
   {% if page.next != nil %}
   <p>Next post:</p>
   <p><a href="{{ page.next.url }}">{{ page.next.title }}</a></p>

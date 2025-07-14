@@ -114,6 +114,11 @@
       }
     }
 
+    .secondary-text {
+      font-size: 0.9rem;
+      color: var(--muted-color);
+    }
+
     #site-header {
       border-bottom: var(--gray-border);
       padding: 1rem;
@@ -149,8 +154,6 @@
     }
 
     #site-footer {
-      font-size: 0.9rem;
-      color: var(--muted-color);
       padding: 1rem;
       max-width: var(--content-width);
       margin: 0 auto 1.5rem;
@@ -181,16 +184,12 @@
     }
 
     .blog-post-header > p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
       margin-bottom: 1rem;
       padding-bottom: 0.5rem;
       border-bottom: var(--gray-border);
     }
 
     .blog-navigator {
-      font-size: 0.9rem;
-      color: var(--muted-color);
       padding: 1rem;
       border: var(--gray-border);
       border-radius: 4px;
@@ -219,7 +218,7 @@
   <main>
     {{ content }}
   </main>
-  <footer id="site-footer">
+  <footer id="site-footer" class="secondary-text">
     <div id="footer-container">
       <div id="copyright">
         © 2025 <a href="https://febog.com">Felipe Bojorquez</a>.
