@@ -1,5 +1,6 @@
 ---
 title: How I prepare a new GitHub repository for personal use
+date: 2025-03-30 20:52:00 -0700
 tags: software code git engineering
 ---
 This is a personal list of things that I usually do when I create a new repository. This is not meant to be a general recommendation but rather I write this to serve as a **checklist for myself** when creating a new codebase for a learning or personal project.

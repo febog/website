@@ -1,5 +1,6 @@
 ---
 title: How to deploy a Jekyll website to Cloudflare Pages using the latest Ruby version
+date: 2025-04-11 23:41:48 -0700
 tags: software code engineering
 image:
   path: "https://static.febog.com/blog-20250411-cover.jpg"

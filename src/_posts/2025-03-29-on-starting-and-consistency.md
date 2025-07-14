@@ -1,5 +1,6 @@
 ---
 title: On starting and consistency
+date: 2025-03-29 02:27:05 -0700
 tags: thoughts
 image:
   path: "https://static.febog.com/blog-20250329-cover.jpg"
