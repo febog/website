@@ -24,7 +24,11 @@ You can find me on my socials:
 
 <ul>
   {% for post in site.posts limit:3 %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> 📅 {{ post.date | date_to_long_string: "ordinal", "US" }} 🏷 {{ post.tags | join: ", " }}</li>
+  <li class="blog-item">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <br>
+    <span class="secondary-text">📅 {{ post.date | date_to_long_string: "ordinal", "US" }} 🏷 {{ post.tags | join: ", " }}</span>
+  </li>
   {% endfor %}
 </ul>
 

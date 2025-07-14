@@ -119,6 +119,17 @@
       color: var(--muted-color);
     }
 
+    @counter-style blog-list {
+      system: cyclic;
+      symbols: "\1F4DD";
+      suffix: " ";
+    }
+
+    .blog-item {
+      list-style-type: blog-list;
+      margin-bottom: 0.5rem;
+    }
+
     #site-header {
       border-bottom: var(--gray-border);
       padding: 1rem;
