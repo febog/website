@@ -1,0 +1,5 @@
+<li class="blog-item">
+  <a href="{{ include.post.url }}">{{ include.post.title }}</a>
+  <br>
+  <span class="secondary-text">📅 {{ include.post.date | date_to_long_string: "ordinal", "US" }} 🏷 {{ include.post.tags | join: ", " }}</span>
+</li>
