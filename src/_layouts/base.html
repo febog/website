@@ -183,14 +183,14 @@
           text-decoration: underline;
         }
       }
-    }
 
-    #footer-container {
-      display: flex;
-    }
+      > div {
+        display: flex;
+      }
 
-    #copyright {
-      flex-grow: 1;
+      .grow {
+        flex-grow: 1;
+      }
     }
 
     /* Blog post styles */
@@ -250,8 +250,8 @@
     {{ content }}
   </main>
   <footer id="site-footer" class="secondary-text">
-    <div id="footer-container">
-      <div id="copyright">
+    <div>
+      <div class="grow">
         © 2025 <a href="https://febog.com">Felipe Bojorquez</a>.
       </div>
       <div>
