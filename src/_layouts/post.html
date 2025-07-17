@@ -13,14 +13,18 @@ layout: base
   {{ content }}
 </article>
 {% if page.previous != nil or page.next != nil %}
-<aside class="blog-navigator secondary-text">
-  {% if page.next != nil %}
-  <p>Next post:</p>
-  <p><a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
-  {% endif %}
+<nav class="blog-navigator secondary-text">
   {% if page.previous != nil %}
-  <p>Previous post:</p>
-  <p><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+    <a class="navigator-container" href="{{ page.previous.url }}">
+      <div class="secondary-text">Previous post:</div>
+      <div>{{ page.previous.title }}</div>
+    </a>
   {% endif %}
-</aside>
+  {% if page.next != nil %}
+    <a class="navigator-container" href="{{ page.next.url }}">
+      <div class="secondary-text">Next post:</div>
+      <div>{{ page.next.title }}</div>
+    </a>
+  {% endif %}
+</nav>
 {% endif %}

@@ -201,12 +201,25 @@
     }
 
     .blog-navigator {
-      padding: 1rem;
-      border: var(--gray-border);
-      border-radius: 4px;
+      padding: 1rem 0;
+      border-top: var(--gray-border);
+      display: flex;
+      gap: 1rem;
 
-      p {
-        margin-bottom: 0.5rem;
+      .navigator-container {
+        border: var(--gray-border);
+        border-radius: 4px;
+        padding: 1rem;
+        flex: 1 1 0;
+        text-decoration: none;
+        transition: 0.25s;
+      }
+
+      .navigator-container:hover {
+        border-color: var(--secondary-color);
+        a {
+          color: var(--body-color);
+        }
       }
     }
   </style>
