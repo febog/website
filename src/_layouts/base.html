@@ -133,25 +133,37 @@
     #site-header {
       border-bottom: var(--gray-border);
       padding: 1rem;
-    }
 
-    #site-navbar {
-      max-width: var(--content-width);
-      margin: 0 auto;
+      > nav {
+        max-width: var(--content-width);
+        margin: 0 auto;
 
-      > ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: inline-flex;
-
-        > li > a {
+        > a {
           text-decoration: none;
-          color: var(--body-color);
-          border-bottom-style: none;
-          padding: 0.75rem;
+          font-weight: 600;
+          margin-right: 0.75rem;
+          color: var(--primary-color);
+          transition: 0.25s;
+
           &:hover {
-            color: var(--primary-color);
+            color: var(--body-color);
+          }
+        }
+
+        > ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: inline-flex;
+
+          > li > a {
+            text-decoration: none;
+            color: var(--body-color);
+            border-bottom-style: none;
+            padding: 0.75rem;
+            &:hover {
+              color: var(--primary-color);
+            }
           }
         }
       }
@@ -235,8 +247,8 @@
 
 <body>
   <header id="site-header">
-    <nav id="site-navbar">
-      <a href="/" id="site-title">febog</a>
+    <nav>
+      <a href="/">febog</a>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/blog">Blog</a></li>
