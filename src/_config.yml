@@ -39,10 +39,10 @@ defaults:
     values:
       layout: "base"
       image:
-        path: "https://static.febog.com/febog-cover.jpg"
-        height: 625
-        width: 1111
-        alt: febog.com - Space photo by NASA.
+        path: "https://static.febog.com/febog-cover.png"
+        height: 720
+        width: 1280
+        alt: Website's cover photo, febog written with light letters over a dark background.
 
 plugins:
   - jekyll-sitemap
