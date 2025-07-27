@@ -13,6 +13,15 @@ I am a software engineer based in the US interested in web technologies. I am cu
 
 Lately, I have been using and learning Jekyll, a static site generator written in Ruby. For example, this website is built with it in combination with plain HTML and CSS.
 
+## Contact 📫
+
+You can find me on:
+
+- <a href="https://github.com/febog" rel="me" target="_blank">GitHub</a>
+- <a href="https://hachyderm.io/@febog" rel="me" target="_blank">Mastodon</a>
+
+You also can write to me via the email on my GitHub profile.
+
 ## Latest blog posts 📝
 
 <ul>
@@ -21,11 +30,4 @@ Lately, I have been using and learning Jekyll, a static site generator written i
   {% endfor %}
 </ul>
 
-## Contact 📫
-
-You can find me on:
-
-- <a href="https://github.com/febog" rel="me noreferrer" target="_blank">GitHub</a>
-- <a href="https://hachyderm.io/@febog" rel="me noreferrer" target="_blank">Mastodon</a>
-
-I hope you have a fantastic day! 🥤
+<small>I hope you have a fantastic day! 🥤</small>
