@@ -1,0 +1,14 @@
+---
+title: Blog year archives
+---
+<h1>{{ page.title }}</h1>
+
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+  <h2>{{ year.name }}</h2>
+  <ul>
+    {% for post in year.items %}
+      {% include blog-item.html post=post %}
+    {% endfor %}
+  </ul>
+{% endfor %}
