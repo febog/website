@@ -19,6 +19,7 @@ You can find me on:
 
 - <a href="https://github.com/febog" rel="me" target="_blank">GitHub</a>
 - <a href="https://hachyderm.io/@febog" rel="me" target="_blank">Mastodon</a>
+- <a href="https://bsky.app/profile/febog.bsky.social" rel="me" target="_blank">Bluesky</a>
 
 You also can write to me via the email on my GitHub profile.
 
