@@ -1,5 +1,4 @@
 ---
-layout: base
 ---
 # Hi, I'm Felipe
 
