@@ -6,8 +6,12 @@ layout: base
     <h1>{{ page.title }}</h1>
     <p class="secondary-text">
       <time datetime="{{ page.date | date_to_xmlschema  }}">
-        📅 {{ page.date | date_to_long_string: "ordinal", "US" }}
-      </time> • 🖊 {{ page.author.name }} • 🏷 {{ page.tags | join: ", " }}
+        📅 <a href="/blog/years" class="muted-link">{{ page.date | date_to_long_string: "ordinal", "US" }}</a>
+      </time>
+      • 🖊
+      <a href="/blog" class="muted-link">{{ page.author.name }}</a>
+      • 🏷
+      <a href="/blog/tags" class="muted-link">{{ page.tags | join: ", " }}</a>
     </p>
   </header>
   {{ content }}
