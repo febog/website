@@ -115,6 +115,15 @@
       }
     }
 
+    /* Layout rulesets */
+    .flex {
+      display: flex;
+    }
+
+    .grow {
+      flex-grow: 1;
+    }
+
     .secondary-text {
       font-size: 0.9rem;
       color: var(--muted-color);
@@ -179,14 +188,6 @@
           text-decoration: underline;
         }
       }
-
-      > div {
-        display: flex;
-      }
-
-      .grow {
-        flex-grow: 1;
-      }
     }
 
     /* Blog post styles */
@@ -241,7 +242,7 @@
     {{ content }}
   </main>
   <footer id="site-footer" class="secondary-text">
-    <div>
+    <div class="flex">
       <div class="grow">
         © 2025 <a href="/">Felipe Bojorquez</a>.
       </div>
