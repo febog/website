@@ -129,6 +129,15 @@
       color: var(--muted-color);
     }
 
+    .muted-link {
+      text-decoration: none;
+      color: var(--muted-color);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
     @counter-style blog-list {
       system: cyclic;
       symbols: "\1F4DD";
@@ -179,15 +188,6 @@
       max-width: var(--content-width);
       margin: 0 auto 1.5rem;
       border-top: var(--site-border);
-
-      a {
-        text-decoration: none;
-        color: var(--muted-color);
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
     }
 
     /* Blog post rulesets */
@@ -244,10 +244,10 @@
   <footer id="site-footer" class="secondary-text">
     <div class="flex">
       <div class="grow">
-        © 2025 <a href="/">Felipe Bojorquez</a>.
+        © 2025 <a href="/" class="muted-link">Felipe Bojorquez</a>.
       </div>
       <div>
-        <a href="https://github.com/febog" rel="me" target="_blank">GitHub</a> • <a href="https://hachyderm.io/@febog" rel="me" target="_blank">Mastodon</a> • <a href="/feed.xml">Feed</a> • <a href="#top">Top</a>
+        <a href="https://github.com/febog" rel="me" target="_blank" class="muted-link">GitHub</a> • <a href="https://hachyderm.io/@febog" rel="me" target="_blank" class="muted-link">Mastodon</a> • <a href="/feed.xml" class="muted-link">Feed</a> • <a href="#top" class="muted-link">Top</a>
       </div>
     </div>
   </footer>
