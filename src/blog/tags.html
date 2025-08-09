@@ -3,14 +3,16 @@ title: Blog tags
 ---
 <h1>{{ page.title }}</h1>
 
+{% assign ordered_tags = site.tags | sort %}
+
 <p><strong>Tag index</strong></p>
 <ul>
-{% for tag in site.tags %}
+{% for tag in ordered_tags %}
   <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a></li>
 {% endfor %}
 </ul>
 
-{% for tag in site.tags %}
+{% for tag in ordered_tags %}
 <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
 <ul>
   {% for post in tag[1] %}
