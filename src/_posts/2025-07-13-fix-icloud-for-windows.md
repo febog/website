@@ -1,7 +1,7 @@
 ---
 title: How to fix iCloud for Windows on Windows 10 and 11
 date: 2025-07-13 20:37:25 -0700
-tags: software
+tags: software troubleshooting
 image:
   path: "https://static.febog.com/blog-20250713-cover.jpg"
   height: 720
