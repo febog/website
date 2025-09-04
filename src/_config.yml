@@ -24,6 +24,11 @@ permalink: /blog/:year/:month/:day/:title
 # Set timezone for correct URL generation
 timezone: America/Los_Angeles
 
+# Custom collections
+collections:
+  projects:
+    output: true
+
 # All pages use the base layout by default
 defaults:
   - scope:
@@ -34,6 +39,11 @@ defaults:
       author:
         name: Felipe Bojorquez
         url: "https://febog.com"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
   - scope:
       path: ""
     values:
