@@ -42,4 +42,8 @@ Or to show just the numbers:
 
 I tested these commands in Windows 11 24H2 Build 26100. At the moment of this writing, both the old and new commands work so I can confirm I am getting the same output in both.
 
+{% include img-caption.html url="https://static.febog.com/blog-20250904-fig1.png" width="1115" height="628"
+alt="Screenshot of a Terminal window showing both the old and new commands returning the same results."
+caption="Comparison of both the old and new commands side by side returning the same results." %}
+
 With this PowerShell command, you can confirm whether your memory is running at its rated speed or if it’s using a default lower value. Useful to do if you are building a PC and configuring it for the first time.
