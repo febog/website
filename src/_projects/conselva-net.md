@@ -5,7 +5,7 @@ code_url: https://github.com/febog/conselva-budget
 project_year: 2023
 years_active: 2023 - present
 ---
-Business ASP.NET Core Razor Pages app hosted in Azure App service.
+ASP.NET Core Razor Pages app hosted in Azure App service for project budget tracking.
 
 ## Background
 
