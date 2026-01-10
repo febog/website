@@ -4,17 +4,17 @@
 
 *Software engineer, gamer, hopeless romantic, optimist.*
 
-Welcome to my little corner of the internet! About section and contact can be found here. 😊
+Hi! My name is Felipe Bojorquez and I'm a software engineer. The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
 
-## About 💻
+Welcome to my little corner of the internet! About section and contact information can be found on this page. Here you can also find a list of my [projects](/projects) and a tiny personal [blog](/blog).
 
-I am a software engineer based in the US interested in web technologies. I am currently working and learning with C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have work experience with HTML, CSS, JavaScript, C++ and C#.
+## About me 💻
+
+I am a software engineer based in the US interested in web technologies. I am currently working and learning with C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have work experience with C#, HTML, CSS, JavaScript and C++.
 
 Lately, I have been using and learning [Jekyll](https://jekyllrb.com/), a static site generator written in [Ruby](https://www.ruby-lang.org/en/). For example, [this website](https://github.com/febog/website) is built with it in combination with plain HTML and CSS.
 
-## Contact 📫
-
-The best way to contact me is via the email on my GitHub profile.
+## Contact information 📫
 
 You can find me on:
 
