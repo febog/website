@@ -6,7 +6,7 @@
 
 Hi! My name is Felipe Bojorquez and I'm a software engineer. The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
 
-Welcome to my little corner of the internet! About section and contact information can be found on this page. Here you can also find a list of my [projects](/projects) and a tiny personal [blog](/blog).
+Welcome to my personal website! About section and contact information can be found on this page. Here you can also find a list of my [projects](/projects) and a tiny personal [blog](/blog).
 
 ## About me 💻
 
