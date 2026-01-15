@@ -11,6 +11,7 @@ title: Projects
 
 {% for project in ordered_projects %}
   <h2>{{ project.name }}</h2>
-  {{ project.excerpt | markdownify }}
-  <p><a href="{{ project.url }}">Project page.</a></p>
+  <p>{{ project.years_active }}</p>
+  <p>{{ project.description }}</p>
+  <p><a href="{{ project.url }}">Project details.</a></p>
 {% endfor %}

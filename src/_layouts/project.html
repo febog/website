@@ -3,11 +3,15 @@ layout: base
 ---
 <h1>{{ page.name }}</h1>
 
-<p><strong>Details</strong></p>
+<h2>Details</h2>
 
 <dl>
+  <dt>Time frame</dt>
+  <dd>{{ page.years_active }}</dd>
   <dt>Code</dt>
   <dd><a href="{{ page.code_url }}" target="_blank">{{ page.name }}</a></dd>
+  <dt>Summary</dt>
+  <dd>{{ page.description }}</dd>
 </dl>
 
 {{ content }}
