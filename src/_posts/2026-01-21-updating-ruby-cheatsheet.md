@@ -1,7 +1,7 @@
 ---
 title: Updating Ruby cheatsheet
 date: 2026-01-21 10:40:00 -0800
-tags: software
+tags: software code
 image:
   path: "https://static.febog.com/blog-20260121-cover.jpg"
   height: 720
