@@ -8,12 +8,12 @@ image:
   width: 1280
   alt: Photo of ruby crystals on a white background. Photo by Jason D via Unsplash.
 ---
-Although `rbenv` makes managing multiple Ruby versions straightforward, I’ve found that updating Ruby for active projects still involves a handful of important steps. Forgetting one of them sometimes leads to confusing dependency issues or mismatched versions. For this reason, I put together a concise checklist of the commands and updates I consistently rely on when upgrading Ruby.
+Although [`rbenv`](https://github.com/rbenv/rbenv) makes managing multiple Ruby versions straightforward, I’ve found that updating Ruby for active projects still involves a handful of important steps. Forgetting one of them sometimes leads to confusing dependency issues or mismatched versions. For this reason, I put together a concise checklist of the commands and updates I use on when upgrading Ruby.
 
 Whenever a new version of Ruby comes out and I want to update my project and coding environment, I run:
 
 1. `rbenv install -l` to list latest stable versions available.
-2. `rbenv install x.y.z` install latest version.
+2. `rbenv install x.y.z` install selected version.
 3. `rbenv global x.y.z` set global version to use.
 4. Update `Gemfile` to new version number in the project.
 5. Update `.ruby-version` to new version number in the project.
