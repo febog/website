@@ -1,4 +1,6 @@
 <figure>
-  <img class="body-img" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" src="{{ include.url }}" alt="{{ include.alt }}" title="{{ include.caption }}">
+  <a href="{{ include.url }}" target="_blank">
+    <img class="body-img" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" src="{{ include.url }}" alt="{{ include.alt }}" title="{{ include.caption }}">
+  </a>
   <figcaption class="secondary-text">{{ include.caption }}</figcaption>
 </figure>
