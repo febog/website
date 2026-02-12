@@ -149,12 +149,16 @@
     }
 
     /* Allows the image to be as wide as the text, while keeping aspect ratio,
-       without it being too big if the image is narrow. */
+       without it being too big if the image is narrow.
+       Also, centers the image horizontally if it's small. */
     .body-img {
       object-fit: contain;
       max-width: 100%;
       height: 100%;
       max-height: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     /* Site rulesets */
