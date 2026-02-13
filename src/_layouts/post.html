@@ -8,6 +8,11 @@ layout: base
       <time datetime="{{ page.date | date_to_xmlschema  }}">
         📅 <a href="/blog/years" class="muted-link">{{ page.date | date_to_long_string: "ordinal", "US" }}</a>
       </time>
+      {% if page.last_modified_at != nil %}
+        <time datetime="{{ page.date | date_to_xmlschema  }}">
+          <a href="/blog/years" class="muted-link"><em>(Updated: {{ page.last_modified_at | date_to_long_string: "ordinal", "US" }})</em></a>
+        </time>
+      {% endif %}
       • 🖊
       <a href="/blog" class="muted-link">{{ page.author.name }}</a>
       • 🏷
