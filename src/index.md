@@ -4,9 +4,7 @@
 
 *Software engineer, gamer, hopeless romantic, optimist.*
 
-Hi! My name is Felipe Bojorquez and I'm a software engineer. The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
-
-Welcome to my personal website! About section and contact information can be found on this page. Here you can also find a list of my [projects](/projects) and a tiny personal [blog](/blog).
+Hi! My name is Felipe Bojorquez and I'm a software engineer. Welcome to my personal website! Here you will find information about me, my [projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
 
 ## About me 💻
 
