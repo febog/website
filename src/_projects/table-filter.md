@@ -1,6 +1,6 @@
 ---
-name: table-search
-title: table-search
+name: table-filter
+title: table-filter
 code_url: https://github.com/febog/table-filter
 project_year: 2026
 years_active: '2026'
