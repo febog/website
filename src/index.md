@@ -2,8 +2,6 @@
 ---
 # Hi, I'm Felipe
 
-*Software engineer, gamer, hopeless romantic, optimist.*
-
 Hi! My name is Felipe Bojorquez and I'm a software engineer. Welcome to my personal website! Here you will find information about me, my [projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
 
 ## About me 💻
