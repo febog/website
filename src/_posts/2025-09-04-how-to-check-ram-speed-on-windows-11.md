@@ -1,5 +1,5 @@
 ---
-title: How to check the RAM speed on Windows 11 (updated method)
+title: How to check the RAM speed on Windows 11
 date: 2025-09-04 15:00:00 -0700
 tags: troubleshooting
 image:
