@@ -53,7 +53,7 @@ defaults:
         path: "https://static.febog.com/febog-cover.png"
         height: 720
         width: 1280
-        alt: Website's cover photo, febog written with light letters over a dark background.
+        alt: Website's cover photo, febog written with light letters over a blue background.
 
 plugins:
   - jekyll-sitemap
