@@ -11,8 +11,8 @@ async function generateImage({ title, date, blogName, output }) {
     path.resolve("assets/Roboto-Bold.ttf")
   );
 
-  const robotoRegularData = await fs.readFile(
-    path.resolve("assets/Roboto-Regular.ttf")
+  const robotoMediumData = await fs.readFile(
+    path.resolve("assets/Roboto-Medium.ttf")
   );
 
   const svg = await satori(
@@ -27,8 +27,8 @@ async function generateImage({ title, date, blogName, output }) {
           justifyContent: "center",
           background: "linear-gradient(to right, #3371e4, #255ec7)",
           fontFamily: "Roboto",
-          fontSize: 24,
-          fontWeight: 400,
+          fontSize: 42,
+          fontWeight: 500,
           color: "#f0f0f0",
         },
         children: [
@@ -37,7 +37,7 @@ async function generateImage({ title, date, blogName, output }) {
             props: {
               style: {
                 display: "flex",
-                gap: "0.4rem",
+                gap: "0.5rem",
                 margin: "0 4rem",
               },
               children: [
@@ -45,8 +45,8 @@ async function generateImage({ title, date, blogName, output }) {
                   type: "svg", // Site icon
                   props: {
                     viewBox: "0 0 36 36",
-                    width: 24,
-                    height: 24,
+                    width: 42,
+                    height: 42,
                     children: [
                       {
                         type: "path",
@@ -108,7 +108,7 @@ async function generateImage({ title, date, blogName, output }) {
             type: "div",
             props: {
               style: {
-                fontSize: 64,
+                fontSize: 72,
                 fontWeight: 700,
                 margin: "2rem 4rem",
               },
@@ -133,9 +133,9 @@ async function generateImage({ title, date, blogName, output }) {
       fonts: [
         {
           name: "Roboto",
-          data: robotoRegularData,
-          weight: 400,
-          style: "regular",
+          data: robotoMediumData,
+          weight: 500,
+          style: "medium",
         },
         {
           name: "Roboto",
