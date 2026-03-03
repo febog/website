@@ -2,6 +2,11 @@
 title: How I prepare a new GitHub repository for personal use
 date: 2025-03-30 20:52:00 -0700
 tags: software code git engineering
+image:
+  path: "https://static.febog.com/blog-20250330-cover.png"
+  width: 1200
+  height: 630
+  alt: How I prepare a new GitHub repository for personal use published March 30th, 2025 by febog.
 ---
 This is a personal list of things that I usually do when I create a new repository. This is not meant to be a general recommendation but rather I write this to serve as a **checklist for myself** when creating a new codebase for a learning or personal project.
 

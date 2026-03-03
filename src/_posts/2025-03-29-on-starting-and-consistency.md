@@ -3,10 +3,10 @@ title: On starting and consistency
 date: 2025-03-29 02:27:05 -0700
 tags: thoughts
 image:
-  path: "https://static.febog.com/blog-20250329-cover.jpg"
-  height: 563
-  width: 1000
-  alt: Pencil and calendar on wooden table beside knit. Photo by Giulia Bertelli via Unsplash.
+  path: "https://static.febog.com/blog-20250329-cover.png"
+  width: 1200
+  height: 630
+  alt: On starting and consistency published March 29th, 2025 by febog.
 ---
 It's better to start with a small step than not start at all. I started keeping track of small daily goals. Even simple tasks. I allowed myself to start small, to be okay with making even the smallest of tasks towards a goal. I write a check mark on my planner when I complete one and it has worked wonders. I've had more consistency right now than I've ever had. Seeing the small string of checks is a satisfying experience and a testament to my growth and work on myself.
 

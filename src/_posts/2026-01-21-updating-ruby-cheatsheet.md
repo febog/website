@@ -3,10 +3,10 @@ title: Updating Ruby cheatsheet
 date: 2026-01-21 10:40:00 -0800
 tags: software code
 image:
-  path: "https://static.febog.com/blog-20260121-cover.jpg"
-  height: 720
-  width: 1280
-  alt: Photo of ruby crystals on a white background. Photo by Jason D via Unsplash.
+  path: "https://static.febog.com/blog-20260121-cover.png"
+  width: 1200
+  height: 630
+  alt: Updating Ruby cheatsheet published January 21st, 2026 by febog.
 last_modified_at: 2026-02-12 17:40:00 -0800
 ---
 Although [`rbenv`](https://github.com/rbenv/rbenv) makes managing multiple Ruby versions straightforward, I’ve found that updating Ruby for active projects still involves a handful of important steps. Forgetting one of them sometimes leads to confusing dependency issues or mismatched versions. For this reason, I put together a concise checklist of the commands I use when upgrading Ruby.

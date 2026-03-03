@@ -3,10 +3,10 @@ title: How to check the RAM speed on Windows 11
 date: 2025-09-04 15:00:00 -0700
 tags: troubleshooting
 image:
-  path: "https://static.febog.com/blog-20250904-cover.jpg"
-  height: 720
-  width: 1280
-  alt: Closeup of RAM memory sticks. Photo by Luan Gjokaj via Unsplash.
+  path: "https://static.febog.com/blog-20250904-cover.png"
+  width: 1200
+  height: 630
+  alt: How to check the RAM speed on Windows 11 published September 4th, 2025 by febog.
 ---
 With the deprecation of WMIC in Windows 11 version 25H2, a new command will be needed to check your RAM speed.
 

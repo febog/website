@@ -51,8 +51,8 @@ defaults:
       layout: "base"
       image:
         path: "https://static.febog.com/febog-cover.png"
-        height: 720
-        width: 1280
+        width: 1200
+        height: 630
         alt: Website's cover photo, febog written with light letters over a blue background.
 
 plugins:

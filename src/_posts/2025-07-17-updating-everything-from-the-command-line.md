@@ -3,10 +3,10 @@ title: Updating everything at once from the command line
 date: 2025-07-17 18:21:00 -0700
 tags: software
 image:
-  path: "https://static.febog.com/blog-20250717-cover.jpg"
-  height: 720
-  width: 1280
-  alt: Screenshot of a command prompt with light text on a dark background. Photo by Gabriel Heinzer via Unsplash.
+  path: "https://static.febog.com/blog-20250717-cover.png"
+  width: 1200
+  height: 630
+  alt: Updating everything at once from the command line published July 17th, 2025 by febog.
 ---
 Whether I’m on Mac, Linux or Windows I love the simplicity that package managers bring to keep software up to date. In this post I’m sharing the update commands I use regularly to update everything on my personal machines.
 

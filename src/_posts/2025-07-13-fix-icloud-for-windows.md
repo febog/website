@@ -3,10 +3,10 @@ title: How to fix iCloud for Windows on Windows 10 and 11
 date: 2025-07-13 20:37:25 -0700
 tags: software troubleshooting
 image:
-  path: "https://static.febog.com/blog-20250713-cover.jpg"
-  height: 720
-  width: 1280
-  alt: White cloud against a clear blue sky. Photo by Dallas Reedy via Unsplash.
+  path: "https://static.febog.com/blog-20250713-cover.png"
+  width: 1200
+  height: 630
+  alt: How to fix iCloud for Windows on Windows 10 and 11 published July 13th, 2025 by febog.
 ---
 This post is about the latest version of [iCloud for Windows](https://support.apple.com/en-us/103232), available only through the Microsoft Store. With it, you can access your iCloud photos, videos, mail, calendar, files, etc. from your Windows PC. However, setting it up isn’t always smooth.
 
