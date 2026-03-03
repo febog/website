@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "satori": "^0.21.0",
+    "sharp": "^0.34.5"
+  }
+}
