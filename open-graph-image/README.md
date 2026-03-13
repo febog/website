@@ -15,7 +15,7 @@ Set the required options `title`, `date` and `filename`. You can change the site
 Run:
 
 ```
-npm start -- -t "Hello world!" -d "March 12th, 2026" -f "my-image"
+npm start -- -t 'Hello world!' -d 'March 12th, 2026' -f 'my-image'
 ```
 
 ## Options
