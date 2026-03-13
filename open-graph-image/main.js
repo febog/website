@@ -1,6 +1,9 @@
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
+import fs from "fs/promises";
 import { generateImage } from './generate.js';
+
+const OUTPUT_PATH = "images";
 
 const argv = yargs(hideBin(process.argv))
   .option('title', {
@@ -29,9 +32,11 @@ const argv = yargs(hideBin(process.argv))
   .help()
   .parse();
 
+await fs.mkdir(OUTPUT_PATH, { recursive: true });
+
 await generateImage({
   title: argv.title,
   date: argv.date,
   blogName: argv.site,
-  output: `images/${argv.filename}.png`,
+  output: `${OUTPUT_PATH}/${argv.filename}.png`,
 });
