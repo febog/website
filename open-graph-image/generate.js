@@ -152,9 +152,4 @@ async function generateImage({ title, date, blogName, output }) {
     .toFile(output);
 }
 
-await generateImage({
-  title: "Hello world!",
-  date: "March 2nd, 2026",
-  blogName: "febog",
-  output: `images/hello_world.png`,
-});
+export { generateImage };
