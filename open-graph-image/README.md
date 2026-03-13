@@ -15,7 +15,7 @@ Set the appropriate `title` and `date` in `generate.js`.
 Run:
 
 ```
-node generate.js
+npm start
 ```
 
 ## Output
