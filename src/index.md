@@ -26,4 +26,6 @@ You can find me on:
   {% endfor %}
 </ul>
 
+[All posts →](/blog/years)
+
 <small>I hope you have a fantastic day! 🥤</small>
