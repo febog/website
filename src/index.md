@@ -2,11 +2,11 @@
 ---
 # Hi, I'm Felipe
 
-Hi! My name is Felipe Bojorquez and I'm a software engineer. Welcome to my personal website! Here you will find information about me, my [projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
+Welcome to my personal website! Here you will find information about me, my [projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
 
 ## About me
 
-I am a software engineer based in the US interested in web technologies. I am currently working and learning with C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have work experience with C#, HTML, CSS, JavaScript and C++.
+Hi! My name is Felipe Bojorquez and I'm a software engineer based in the US. I enjoy working with the web and I am currently focused on C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have experience with C#, HTML, CSS, JavaScript and C++.
 
 Lately, I have been using and learning [Jekyll](https://jekyllrb.com/), a static site generator written in [Ruby](https://www.ruby-lang.org/en/). For example, [this website](https://github.com/febog/website) is built with it in combination with plain HTML and CSS.
 
