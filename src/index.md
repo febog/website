@@ -8,8 +8,6 @@ Welcome to my personal website! Here you will find information about me, my [pro
 
 Hi! My name is Felipe Bojorquez and I'm a software engineer based in the US. I enjoy working with the web and I am currently focused on C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have experience with C#, HTML, CSS, JavaScript and C++.
 
-Lately, I have been using and learning [Jekyll](https://jekyllrb.com/), a static site generator written in [Ruby](https://www.ruby-lang.org/en/). For example, [this website](https://github.com/febog/website) is built with it in combination with plain HTML and CSS.
-
 ## Contact information
 
 You can find me on:
@@ -27,5 +25,9 @@ You can find me on:
 </ul>
 
 [All posts →](/blog/years)
+
+## About this site
+
+I built this website by hand as a side project with plain HTML and CSS in combination with [Jekyll](https://jekyllrb.com/), a static site generator written in [Ruby](https://www.ruby-lang.org/en/). The source code is available on my [personal website repository](https://github.com/febog/website).
 
 <small>I hope you have a fantastic day! 🥤</small>
