@@ -1,5 +1,4 @@
 ---
-name: 'NPM package: ogp-image-generator'
 title: 'NPM package: ogp-image-generator'
 order: 5
 featured: true

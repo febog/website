@@ -1,5 +1,4 @@
 ---
-name: Conselva.net
 title: Conselva.net
 order: 1
 featured: true

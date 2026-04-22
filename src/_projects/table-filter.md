@@ -1,5 +1,4 @@
 ---
-name: 'NPM package: table-filter'
 title: 'NPM package: table-filter'
 order: 4
 featured: true

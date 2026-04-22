@@ -1,5 +1,4 @@
 ---
-name: BotShu
 title: BotShu
 order: 3
 featured: true
