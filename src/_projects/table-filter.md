@@ -1,7 +1,7 @@
 ---
-title: 'NPM package: table-filter'
+title: Table filter
 order: 4
-featured: true
+featured: false
 repository_name: table-filter
 code_url: https://github.com/febog/table-filter
 code: JavaScript

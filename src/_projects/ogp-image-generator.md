@@ -1,7 +1,7 @@
 ---
-title: 'NPM package: ogp-image-generator'
+title: OGP Image Generator
 order: 5
-featured: true
+featured: false
 repository_name: ogp-image-generator
 code_url: https://github.com/febog/ogp-image-generator
 code: JavaScript
