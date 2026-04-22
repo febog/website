@@ -48,7 +48,7 @@
       padding: 1rem;
     }
 
-    h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, pre, figure {
+    h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, pre, figure, table {
       margin: 0 0 1.5rem 0;
     }
 
@@ -109,6 +109,17 @@
       > p {
         margin: 0;
       }
+    }
+
+    table, td, th {
+      border-collapse: collapse;
+      text-align: start;
+      border: var(--site-border);
+      padding: 0.5rem;
+    }
+
+    table {
+      width: 100%;
     }
 
     /* Layout rulesets */
