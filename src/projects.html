@@ -3,13 +3,42 @@ title: Projects
 ---
 <h1>Projects</h1>
 
+<h2>Featured</h2>
+
 <p>Some of my main projects include:</p>
 
-{% assign ordered_projects = site.projects | sort: project_year | reverse %}
+{% assign ordered_projects = site.projects | sort: "order" %}
 
-{% for project in ordered_projects %}
-  <h2>{{ project.name }}</h2>
+{% assign featured_projects = ordered_projects | where: "featured", true %}
+
+{% for project in featured_projects %}
+  <h3>{{ project.title }}</h3>
   <p>📅 {{ project.years_active }}</p>
   <p>{{ project.description }}</p>
   <p><a href="{{ project.url }}">Project page →</a></p>
 {% endfor %}
+
+<h2>Overview</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Repository</th>
+      <th>Code</th>
+      <th>Category</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for project in ordered_projects %}
+      <tr>
+        <td><a href="{{ project.url }}">{{ project.title }}</a></td>
+        <td><a href="{{ project.code_url }}">{{ project.repository_name }}</a></td>
+        <td>{{ project.code }}</td>
+        <td>{{ project.category }}</td>
+        <td>{{ project.description }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
