@@ -20,7 +20,18 @@ title: Projects
 
 <h2>Overview</h2>
 
-<table>
+<search style="margin-bottom: 1rem;">
+  <form class="flex">
+    <div style="margin-right: 1rem;">
+      <label for="table-search-input">Filter:</label>
+    </div>
+    <div>
+      <input type="search" id="table-search-input">
+    </div>
+  </form>
+</search>
+
+<table id="projects">
   <thead>
     <tr>
       <th>Name</th>
@@ -42,3 +53,9 @@ title: Projects
     {% endfor %}
   </tbody>
 </table>
+
+<script type="module">
+  import { filterTable } from "https://cdn.jsdelivr.net/npm/@febog/table-filter@2.0.0/filter.js";
+  const input = document.getElementById("table-search-input");
+  input.addEventListener("input", e => filterTable("projects", e.target.value));
+</script>
