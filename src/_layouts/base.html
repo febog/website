@@ -45,11 +45,15 @@
     main {
       max-width: var(--content-width);
       margin: 0 auto;
-      padding: 1rem;
+      padding: 0 1.5rem;
     }
 
     h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, pre, figure, table {
       margin: 0 0 1.5rem 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
     }
 
     p {
@@ -193,19 +197,19 @@
 
     /* Site rulesets */
     #site-header {
-      border-bottom: var(--site-border);
-      padding: 0 1rem;
+      max-width: var(--content-width);
+      margin: 0 auto;
+      padding: 1.75rem 1.5rem;
 
       > nav {
-        max-width: var(--content-width);
-        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
+        gap: 2rem;
 
         > a {
           text-decoration: none;
           color: var(--body-color);
-          padding: 1rem 0.75rem;
+          transition: 0.25s;
 
           &:hover {
             color: var(--primary-color);
@@ -215,9 +219,7 @@
         .site-logo {
           text-decoration: none;
           font-weight: 600;
-          padding: 1rem 1rem 1rem 0;
           color: var(--primary-color);
-          transition: 0.25s;
 
           &:hover {
             color: var(--secondary-color);
