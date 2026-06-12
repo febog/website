@@ -1,6 +1,18 @@
 ---
 ---
-# Hi, I'm Felipe
+<div class="introduction">
+  <h1>Felipe Bojorquez</h1>
+  <p class="bio-details">
+    <span class="icon-text">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color: var(--body-color);" width="64" height="64" viewBox="0 0 24 24"><path fill="currentColor" d="M14 15h-4v-2H2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6h-8zm6-9h-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v4h20V8a2 2 0 0 0-2-2m-4 0H8V4h8z"></path></svg>
+      <span>Software Engineer</span>
+    </span>
+    <span class="icon-text">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color: var(--body-color);" width="64" height="64" viewBox="0 0 24 24"><path fill="currentColor" d="M19 9A7 7 0 1 0 5 9c0 1.387.409 2.677 1.105 3.765h-.008L12 22l5.903-9.235h-.007A6.97 6.97 0 0 0 19 9m-7 3a3 3 0 1 1 0-6a3 3 0 0 1 0 6"></path></svg>
+      <span>USA</span>
+    </span>
+  </p>
+</div>
 
 Welcome to my personal website! Here you will find information about me, my [projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
 
