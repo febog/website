@@ -8,6 +8,11 @@ Welcome to my personal website! Here you will find information about me, my [pro
 
 Hi! My name is Felipe Bojorquez and I'm a software engineer based in the US. I enjoy working with the web and I am currently focused on C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have experience with C#, HTML, CSS, JavaScript and C++.
 
+You can find me on:
+
+- <a href="https://github.com/febog" rel="me" target="_blank">GitHub</a>
+- <a href="https://hachyderm.io/@febog" rel="me" target="_blank">Mastodon</a>
+
 ## Latest blog posts
 
 <ul>
@@ -17,13 +22,6 @@ Hi! My name is Felipe Bojorquez and I'm a software engineer based in the US. I e
 </ul>
 
 [All posts →](/blog/years)
-
-## Contact information
-
-You can find me on:
-
-- <a href="https://github.com/febog" rel="me" target="_blank">GitHub</a>
-- <a href="https://hachyderm.io/@febog" rel="me" target="_blank">Mastodon</a>
 
 ## About this site
 
