@@ -46,7 +46,7 @@ In summary, I really liked the thought and attention to detail put into the user
 
 - [Introducing recovery codes: Never lose access to 1Password](https://1password.com/blog/introducing-1password-recovery-codes) (June 20th, 2024).
 - [About the security of recovery codes in 1Password](https://support.1password.com/recovery-code-security/).
-- [Generate and use recovery codes](https://support.1password.com/recovery-codes/)
+- [Generate and use recovery codes](https://support.1password.com/recovery-codes/).
 - [Secret Key security](https://support.1password.com/secret-key-security/).
 
 ## Further reading
