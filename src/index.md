@@ -14,11 +14,11 @@
   </p>
 </div>
 
-Welcome to my personal website! Here you will find information about me, my [projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
+Hi! Welcome to my personal website! My name is Felipe Bojorquez and I'm a software engineer based in the Pacific Northwest, USA.
 
-## About me
+I enjoy working with the web and I am currently focused on C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have experience with C#, HTML, CSS, JavaScript and C++.
 
-Hi! My name is Felipe Bojorquez and I'm a software engineer based in the US. I enjoy working with the web and I am currently focused on C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have experience with C#, HTML, CSS, JavaScript and C++.
+Here you can find some of my [personal projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
 
 You can find me on:
 
