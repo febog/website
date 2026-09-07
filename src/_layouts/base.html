@@ -125,6 +125,8 @@
     /* Layout rulesets */
     .flex {
       display: flex;
+      align-items: center;
+      gap: 1rem;
     }
 
     .grow {
@@ -144,6 +146,18 @@
         color: var(--body-color);
         text-decoration: underline;
       }
+    }
+
+    .mb {
+      margin-bottom: 1rem;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      border: var(--site-border);
+      border-radius: var(--site-radius);
     }
 
     @counter-style blog-list {
