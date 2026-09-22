@@ -20,11 +20,6 @@ I enjoy working with the web and I am currently focused on C# and [ASP.NET Core]
 
 Here you can find some of my [personal projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my <a href="https://github.com/febog" rel="me" target="_blank">GitHub profile</a>.
 
-You can find me on:
-
-- <a href="https://github.com/febog" rel="me" target="_blank">GitHub</a>
-- <a href="https://hachyderm.io/@febog" rel="me" target="_blank">Mastodon</a>
-
 ## Latest blog posts
 
 <ul>
