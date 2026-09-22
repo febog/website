@@ -18,7 +18,7 @@ Hi! Welcome to my personal website! My name is Felipe Bojorquez and I'm a softwa
 
 I enjoy working with the web and I am currently focused on C# and [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/overview) to create web applications. I have experience with C#, HTML, CSS, JavaScript and C++.
 
-Here you can find some of my [personal projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my [GitHub profile](https://github.com/febog).
+Here you can find some of my [personal projects](/projects) and a tiny personal [blog](/blog). The best way to contact me is via the email on my <a href="https://github.com/febog" rel="me" target="_blank">GitHub profile</a>.
 
 You can find me on:
 
