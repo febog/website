@@ -4,8 +4,7 @@ order: 4
 featured: false
 repository_name: table-filter
 code_url: https://github.com/febog/table-filter
-code: JavaScript
-category: NPM
+type: NPM JavaScript
 project_year: 2026
 years_active: '2026'
 description: An npm package for filtering table rows.

@@ -4,8 +4,7 @@ order: 5
 featured: false
 repository_name: ogp-image-generator
 code_url: https://github.com/febog/ogp-image-generator
-code: JavaScript
-category: NPM
+type: NPM JavaScript
 project_year: 2026
 years_active: '2026'
 description: Open Graph Protocol image generator for my blog.

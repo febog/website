@@ -4,8 +4,7 @@ order: 1
 featured: true
 repository_name: conselva-budget
 code_url: https://github.com/febog/conselva-budget
-code: C#
-category: ASP.NET
+type: ASP.NET Core C#
 project_year: 2023
 years_active: 2023 - present
 description: ASP.NET Core Razor Pages app hosted in Azure App service for project budget tracking.

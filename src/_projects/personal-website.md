@@ -4,8 +4,7 @@ order: 8
 featured: false
 repository_name: website
 code_url: https://github.com/febog/website
-code: HTML
-category: Jekyll
+type: Jekyll website
 project_year: 2025
 years_active: 2025 - present
 description: Static website built on Jekyll hosted on Cloudflare Pages.

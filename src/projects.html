@@ -18,7 +18,7 @@ title: Projects
   <p><a href="{{ project.url }}">Project page →</a></p>
 {% endfor %}
 
-<h2>Overview</h2>
+<h2>Projects overview</h2>
 
 <p>All my other projects listed here for reference.</p>
 
@@ -37,19 +37,15 @@ title: Projects
   <thead>
     <tr>
       <th>Name</th>
-      <th>Repository</th>
-      <th>Code</th>
-      <th>Category</th>
+      <th>Type</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     {% for project in ordered_projects %}
       <tr>
-        <td><a href="{{ project.url }}">{{ project.title }}</a></td>
-        <td><a href="{{ project.code_url }}">{{ project.repository_name }}</a></td>
-        <td>{{ project.code }}</td>
-        <td>{{ project.category }}</td>
+        <td><a href="{{ project.url }}">{{ project.title }}</a> (<a href="{{ project.code_url }}">code</a>)</td>
+        <td>{{ project.type }}</td>
         <td>{{ project.description }}</td>
       </tr>
     {% endfor %}

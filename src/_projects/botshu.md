@@ -4,8 +4,7 @@ order: 3
 featured: true
 repository_name: botshu
 code_url: https://github.com/febog/botshu
-code: JavaScript
-category: Node
+type: Node JavaScript
 project_year: 2022
 years_active: 2022 - present
 description: Twitch chat bot and stream tooling.
